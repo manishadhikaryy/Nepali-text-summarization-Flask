@@ -1,3 +1,6 @@
+Sure, here's the fixed version of your README.md file with corrected formatting:
+
+```markdown
 # Flask Text Summarizer
 
 This is a simple Flask web application that summarizes text using TF-IDF. The application takes a block of text as input and returns a summarized version of the text.
@@ -20,40 +23,46 @@ This is a simple Flask web application that summarizes text using TF-IDF. The ap
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/flask-text-summarizer.git
+   git clone https://github.com/manishadhikaryy/Nepali-text-summarization-Flask.git
    cd flask-text-summarizer
+   ```
 
 2. **Create and activate a virtual environment:**
 
-    ```sh
-    Copy code
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
 
 3. **Install the required packages:**
 
-    ```sh
-    Copy code
-    pip install -r requirements.txt
-    Running the Application
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-4. **Start the Flask app:**
+### Running the Application
 
-```sh
-Copy code
-python app.py
-Open your web browser and go to:
+1. **Start the Flask app:**
 
-arduino
-Copy code
-http://127.0.0.1:5000/
-Usage
-Enter the text you want to summarize in the text area.
-Click the "Summarize" button.
-View the summarized text on the result page.
-Project Structure
-arduino
-Copy code
+   ```sh
+   python app.py
+   ```
+
+2. **Open your web browser and go to:**
+
+   ```
+   http://127.0.0.1:5000/
+   ```
+
+### Usage
+
+1. Enter the text you want to summarize in the text area.
+2. Click the "Summarize" button.
+3. View the summarized text on the result page.
+
+## Project Structure
+
+```
 flask-text-summarizer/
 ├── app.py
 ├── templates/
@@ -61,8 +70,11 @@ flask-text-summarizer/
 │   └── result.html
 ├── requirements.txt
 └── README.md
+```
 
-app.py: The main Flask application file.
-templates/: Folder containing HTML templates.
-static/: Folder for static files (e.g., CSS).
-requirements.txt: File listing the Python dependencies.
+- `app.py`: The main Flask application file.
+- `templates/`: Folder containing HTML templates.
+- `static/`: Folder for static files (e.g., CSS).
+- `requirements.txt`: File listing the Python dependencies.
+```
+```
