@@ -22,19 +22,22 @@ This is a simple Flask web application that summarizes text using TF-IDF. The ap
    ```sh
    git clone https://github.com/yourusername/flask-text-summarizer.git
    cd flask-text-summarizer
-Create and activate a virtual environment:
 
-```sh
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install the required packages:
+2. **Create and activate a virtual environment:**
 
-```sh
-Copy code
-pip install -r requirements.txt
-Running the Application
-Start the Flask app:
+    ```sh
+    Copy code
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3. **Install the required packages:**
+
+    ```sh
+    Copy code
+    pip install -r requirements.txt
+    Running the Application
+
+4. **Start the Flask app:**
 
 ```sh
 Copy code
