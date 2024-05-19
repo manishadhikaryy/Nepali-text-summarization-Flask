@@ -1,0 +1,8 @@
+Flask==2.0.2
+Jinja2==3.0.3
+nltk==3.6.3
+click==8.0.3
+itsdangerous==2.0.1
+MarkupSafe==2.0.1
+regex==2021.11.10
+tqdm==4.62.3
